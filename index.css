@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inclusive Sans', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+}
+
+#landing {
+	background-image: url(./images/bg.jpg);
+	/*It stretch our bg image to cover the area of the element*/
+	background-size: cover;
+	/*no repeat makes sure that our bg image will not be repeated in the element.*/
+	background-repeat: no-repeat;
+	/*positions our background image to the center*/
+	background-position: center;
+
+}
+#tools {
+
+	background-image: url(./images/toolsbg.jpg);
+	/*It stretch our bg image to cover the area of the element*/
+	background-size: cover;
+	/*no repeat makes sure that our bg image will not be repeated in the element.*/
+	background-repeat: no-repeat;
+	/*positions our background image to the center*/
+	background-position: center;
+
+}
+
+
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
